@@ -7,11 +7,11 @@
 
   <b-collapse is-nav id="nav_collapse">
 
-    <b-navbar-nav class="w-100" justified tabs>
-      <b-nav-item href="#">Apie Mus</b-nav-item>
-      <b-nav-item href="#">Kūrybinės Dirbtuvės</b-nav-item>
-      <b-nav-item href="#">Galerija</b-nav-item>
-      <b-nav-item href="#">Kontaktai</b-nav-item>
+    <b-navbar-nav class="w-100" justified tabs exact-active-class>
+      <b-nav-item to="/about">Apie Mus</b-nav-item>
+      <b-nav-item to="/workshop">Kūrybinės Dirbtuvės</b-nav-item>
+      <b-nav-item to="/gallery">Galerija</b-nav-item>
+      <b-nav-item to="/contact">Kontaktai</b-nav-item>
     </b-navbar-nav>
 
   </b-collapse>
