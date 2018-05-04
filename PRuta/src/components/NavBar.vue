@@ -2,7 +2,7 @@
   <div>
    <b-navbar toggleable="md" type="light" variant="faded">
 
-  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+  <b-navbar-toggle class="ml-auto" target="nav_collapse"></b-navbar-toggle>
 
 
   <b-collapse is-nav id="nav_collapse">
