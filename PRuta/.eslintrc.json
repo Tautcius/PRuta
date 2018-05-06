@@ -1,6 +1,9 @@
 {
-    "extends": [
-      "eslint:recommended",
-      "plugin:vue/recommended"
-    ]
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "space-before-function-paren": "error"
   }
+}

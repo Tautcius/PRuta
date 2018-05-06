@@ -1,0 +1,7 @@
+{
+  "prettier.eslintIntegration": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.fontLigatures": true,
+  "editor.formatOnType": true
+}

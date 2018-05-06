@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <Language />
     <b-img :src="require('./assets/prutaLogo.png')" fluid alt="PRuta" /> 
     <NavBar />
     <router-view></router-view>
@@ -9,13 +9,13 @@
 
 <script>
 import NavBar from './components/NavBar'
-// import Language from './components/Language'
+import Language from './components/Language'
 
 export default {
   name: 'app',
   components: {
-    NavBar
- //   Language
+    NavBar,
+    Language
   }
 }
 </script>
